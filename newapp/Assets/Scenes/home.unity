@@ -96,6 +96,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
   m_UseShadowmask: 1
 --- !u!196 &4
@@ -154,8 +155,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 9.466001}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -36, y: 27}
-  m_SizeDelta: {x: 595, y: 77.3}
+  m_AnchoredPosition: {x: -133, y: 32}
+  m_SizeDelta: {x: 363.1, y: 77.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &26698090
 MonoBehaviour:
@@ -170,7 +171,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0.7830189, g: 0.54294235, b: 0.54294235, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -182,7 +183,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 3
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -291,7 +292,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &61247393
 RectTransform:
   m_ObjectHideFlags: 0
@@ -512,7 +513,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -309.2, y: -606.6}
+  m_AnchoredPosition: {x: 350, y: 771}
   m_SizeDelta: {x: 108.4, y: 57.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &139592245
@@ -1496,7 +1497,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &474530648
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1514,8 +1515,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.012493, y: 398.3}
-  m_SizeDelta: {x: 720, y: 495.3}
+  m_AnchoredPosition: {x: 0.00048447, y: 537.7}
+  m_SizeDelta: {x: 800, y: 524.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &474530649
 MonoBehaviour:
@@ -2087,7 +2088,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.5790762, g: 0.8584906, b: 0.8334191, a: 1}
+  m_Color: {r: 0.5803922, g: 0.7566532, b: 0.85882354, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -2159,7 +2160,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &668057146
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2189,12 +2190,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 0.104
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -2235,6 +2236,7 @@ RectTransform:
   - {fileID: 950830806}
   - {fileID: 1033421979}
   - {fileID: 1165819808}
+  - {fileID: 1134938506}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2353,8 +2355,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.012487, y: 401}
-  m_SizeDelta: {x: 720, y: 474.6}
+  m_AnchoredPosition: {x: -0.012487, y: 443.06}
+  m_SizeDelta: {x: 720, y: 558.72}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &690218282
 MonoBehaviour:
@@ -2428,8 +2430,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -16.799988, y: -492}
-  m_SizeDelta: {x: 720, y: 600}
+  m_AnchoredPosition: {x: -16.799988, y: -453.4}
+  m_SizeDelta: {x: 720, y: 677.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!328 &718468727
 VideoPlayer:
@@ -2532,8 +2534,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -13.02}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 199.8, y: 90.3}
-  m_SizeDelta: {x: 296.4, y: 86.7}
+  m_AnchoredPosition: {x: 135.8, y: 162.9}
+  m_SizeDelta: {x: 453.8, y: 154.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &721098967
 MonoBehaviour:
@@ -2733,8 +2735,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 187.5, y: -588.6}
-  m_SizeDelta: {x: 314.4, y: 255.9}
+  m_AnchoredPosition: {x: -14.95, y: -619}
+  m_SizeDelta: {x: 726.7, y: 236.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &803380525
 MonoBehaviour:
@@ -3281,7 +3283,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -3373,8 +3375,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.28765625}
   m_AnchorMax: {x: 0.5, y: 0.28765625}
-  m_AnchoredPosition: {x: -134.1, y: 241.4}
-  m_SizeDelta: {x: 451.8, y: 741.9}
+  m_AnchoredPosition: {x: -134.1, y: 257.6}
+  m_SizeDelta: {x: 451.8, y: 774.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &950830807
 MonoBehaviour:
@@ -3661,7 +3663,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1003906977
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4211,7 +4213,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.8867924, g: 0.8867924, b: 0.45594516, a: 0}
+  m_BackGroundColor: {r: 0.11320752, g: 0.11320752, b: 0.10733354, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -4292,8 +4294,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -11.9, y: 6.6}
-  m_SizeDelta: {x: 375.9, y: 537.1}
+  m_AnchoredPosition: {x: -11.9, y: 33.6}
+  m_SizeDelta: {x: 375.9, y: 591}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1069286733
 MonoBehaviour:
@@ -4329,11 +4331,11 @@ MonoBehaviour:
   m_Text: "When you have a great story about how your product or service was built
     to change lives, share it. The \"About Us\" page is a great place for it to live,
     too. Good stories humanize your brand, providing context and meaning for your
-    product. What\u2019s more, good stories are sticky -- which means people are more
-    likely to connect with them and pass them on.\r\n\r\nYellow Leaf Hammocks tells
-    users about its product by describing how the hammocks empower artisan weavers
-    and their families. The company breaks down different pieces of the story into
-    sections that combine words and easily digestible graphics, painting a picture
+    product. What\u2019s more, good stories are sticky -- which means people are
+    more likely to connect with them and pass them on.\r\n\r\nYellow Leaf Hammocks
+    tells users about its product by describing how the hammocks empower artisan
+    weavers and their families. The company breaks down different pieces of the story
+    into sections that combine words and easily digestible graphics, painting a picture
     instead of big chunks of text. They're clear about why they're different: \"Not
     a Charity,\" the page reads. And then: \"This is the basis for a brighter future,
     built on a hand up, not a handout.\""
@@ -4379,7 +4381,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 395, y: -156}
+  m_AnchoredPosition: {x: 395, y: -137}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1089452714
@@ -4495,6 +4497,80 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1114543639}
   m_CullTransparentMesh: 0
+--- !u!1 &1134938505
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1134938506}
+  - component: {fileID: 1134938508}
+  - component: {fileID: 1134938507}
+  m_Layer: 5
+  m_Name: Image for Text Description (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1134938506
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1134938505}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1957420483}
+  m_Father: {fileID: 668057149}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.28765625}
+  m_AnchorMax: {x: 0.5, y: 0.28765625}
+  m_AnchoredPosition: {x: 224.84999, y: 170.48}
+  m_SizeDelta: {x: 266.1, y: 600.05}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1134938507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1134938505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.6792453, g: 0.6089489, b: 0.52224994, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1134938508
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1134938505}
+  m_CullTransparentMesh: 0
 --- !u!1 &1141905922
 GameObject:
   m_ObjectHideFlags: 0
@@ -4543,12 +4619,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 0.1
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -4764,7 +4840,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -289, y: 601}
+  m_AnchoredPosition: {x: 296, y: 676}
   m_SizeDelta: {x: 137.4, y: 73.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1165819809
@@ -6328,7 +6404,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -294.7, y: -598.3}
+  m_AnchoredPosition: {x: 280, y: 641}
   m_SizeDelta: {x: 137.4, y: 73.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1639761727
@@ -7350,7 +7426,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0.9528302, g: 0.91237986, b: 0.91237986, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -7505,6 +7581,93 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1902083292}
+  m_CullTransparentMesh: 0
+--- !u!1 &1957420482
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1957420483}
+  - component: {fileID: 1957420485}
+  - component: {fileID: 1957420484}
+  m_Layer: 5
+  m_Name: description text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1957420483
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1957420482}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1134938506}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 1, y: -6.1}
+  m_SizeDelta: {x: 200.5, y: 511.6}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1957420484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1957420482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 20
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "When you have a great story about how your product or service was built
+    to change lives, share it. The \"About Us\" page is a great place for it to live,
+    too. Good stories humanize your brand, providing context and meaning for your
+    product. What\u2019s more, good stories are sticky -- which means people are
+    more likely to connect with them and pass them on.\r\n\r\nYellow Leaf Hammocks
+    tells users about its product by describing how the hammocks empower artisan
+    weavers and their families. The company breaks down different pieces of the story
+    into sections that combine words and easily digestible graphics, painting a picture
+    instead of big chunks of text. They're clear about why they're different: \"Not
+    a Charity,\" the page reads. And then: \"This is the basis for a brighter future,
+    built on a hand up, not a handout.\""
+--- !u!222 &1957420485
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1957420482}
   m_CullTransparentMesh: 0
 --- !u!1 &1990981375
 GameObject:
@@ -7962,7 +8125,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 395, y: -34}
+  m_AnchoredPosition: {x: 395, y: -69}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2079100299
