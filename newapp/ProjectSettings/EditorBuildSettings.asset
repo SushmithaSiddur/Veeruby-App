@@ -11,7 +11,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/home.unity
     guid: 270a6f4eb949af84c9c9cac17badf4ee
-  - enabled: 1
-    path: Assets/Scenes/Aboutus.unity
-    guid: c2d1ddaaf6ac09842b96d36443ab30c3
   m_configObjects: {}
